@@ -1,0 +1,33 @@
+- pages:
+    - name: Vu sur plusieurs pages
+      blocks:
+        - name: Fil d'Ariane
+          errors:
+            - name: |
+                Le fil d'Ariane est vocalisé en anglais: "breadcrumb"
+        - name: Footer
+          errors:
+            - name: |
+                "Accessibilite" au lieu de "Accessibilité"
+        - name: Divers
+          errors:
+            - name: |
+                `<br>` utilisé de nombreuses fois pour présenter l'info sous forme de colonne => critère 10.1 non conforme
+    - name: Page de connexion
+      blocks:
+        - name: J'accède à mon compte
+          errors:
+            - name: le `title` indique "Adresse mél" au lieu de "Adresse e-mail"
+        - name: Titre de la page
+          errors:
+            - name: Critère 8.5 non conforme
+              description:
+                Titre de la page = "Demande de logement social en ligne", il
+                manque l'information "Connexion ou inscription"
+        - name: Je crée un compte
+          errors:
+            - name: CGU ?
+              description:
+                Il y a cette case à cocher "J'accepte les conditions générales
+                d'utilisation et les règles de confidentialités", mais pas de
+                lien vers les CGU et la page "confidentialité" ?

@@ -1,0 +1,15 @@
+_merge = "deep"
+
+languageCode = 'fr-fr'
+title = 'DGALN'
+
+[module]
+[[module.imports]]
+path = 'github.com/disic/frago'
+
+[outputs]
+ home    = ["HTML","JSON"]
+
+[params]
+  organisation = "DGALN"
+  robots = "noindex, nofollow"
